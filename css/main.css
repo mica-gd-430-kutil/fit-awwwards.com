@@ -97,11 +97,73 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+.pie-slice {
+	height: 80px;
+	background-color: aqua;
+}
+
+.pie-fill {
+	display: inline-block;
+	width: 80%;
+	height: 80px;
+	background-color: pink;
+}
+*/
+
+.pie,
+.pie-slice {
+	position: relative;
+}
+
+.pie-slice,
+.pie-fill {
+	border-radius: 100%;
+}
+
+.pie-slice {
+	width: 200px;
+	height: 200px;
+	border: 20px solid grey;
+}
+
+
+.pie-fill {
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 200px;
+	height: 200px;
+	border: 20px solid green;
+	clip: rect(0, 160px, 160px, 0);
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
 
 
 
-
-
+/* 
+position
+ - position:
+ - top: etc.
+display
+ - display: block, etc.
+ - overflow
+dimensions
+ - width
+ - height
+ - padding
+ - margin
+font related stuff
+ - font-family
+ - font-size
+Styling
+ - color
+ - border
+ - background
+css3 stuff
+ - transforms, etc.
+*/
 
 
 
